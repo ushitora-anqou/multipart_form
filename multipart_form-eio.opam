@@ -16,7 +16,7 @@ depends: [
   "angstrom"
   "bigstringaf"
   "eio"
-  "eio_main"
+  "eio_main" {with-test}
   "ke"
   "multipart_form" {= version}
   "alcotest" {with-test}
